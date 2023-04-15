@@ -17,7 +17,7 @@ html {
   --secondary-bg-color: #f4f4fd;
   --primaty-accent-color: #4d5ae5;
   --secondary-accent-color: #404bbf;
-  --customer-icon-color :#afb1b8;
+  --customer-icon-color :#8E8F99;
 }
 .visually-hidden {
   position: absolute;
@@ -61,7 +61,8 @@ h6 {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 156px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -70,9 +71,11 @@ h6 {
   align-items: center;
 }
 .container {
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+  width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .list {
   margin: 0;
@@ -241,7 +244,6 @@ h6 {
 /* skills */
 .skills {
   padding: 120px 0;
-  width: 1128px;
   margin: 0 auto;
 }
 .skills-list {
@@ -252,7 +254,6 @@ h6 {
   width: 264px;
 }
 .skills-photo {
-  width: 264px;
   height: 112px;
   background: var(--secondary-bg-color);
   border-radius: 4px;
@@ -289,9 +290,12 @@ h6 {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
+.skills-text{
+  margin: 0;
+}
 /* what are we doing */
 .we-doing {
-  padding: 120px 156px;
+  padding-bottom: 120px;
 }
 
 .we-doing-list {
@@ -309,6 +313,7 @@ h6 {
 }
 .our-team-list {
   display: flex;
+  gap: 24px;
 }
 .our-team-item {
   width: 264px;
@@ -317,9 +322,7 @@ h6 {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.our-team-item:nth-child(n-1) {
-  margin-right: 24px;
-}
+
 
 .our-team-title {
   letter-spacing: 0.02em;
@@ -341,6 +344,7 @@ h6 {
 }
 .our-team-text {
   text-align: center;
+  margin: 0; 
   margin-bottom: 32px;
 }
 
@@ -373,7 +377,7 @@ h6 {
 .customers-links{
   width: 100%;
   height: 100%;
-  border: 1px solid #8e8f99;
+  border: 1px solid #8E8F99;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -477,7 +481,7 @@ h6 {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  padding: 100px 156px;
+  padding: 100px 0;
   display: flex;
 
   gap: 120px;
@@ -489,7 +493,6 @@ h6 {
 }
 .footer > .container {
   display: flex;
-  width: 1128px;
   gap: 120px;
   justify-content: left;
   padding: 0;
@@ -502,6 +505,7 @@ h6 {
 .footer-text {
   display: inline-block;
   width: 264px;
+  margin: 0;
 }
 .footer-social-media-title {
   font-weight: 500;
