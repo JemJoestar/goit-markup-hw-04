@@ -401,7 +401,6 @@ h6 {
 /* portfolio buttons */
 .portfolio-filters {
   display: flex;
-  width: 600px;
   margin: 0 auto;
   justify-content: center;
   margin-bottom: 72px;
